@@ -15,7 +15,7 @@ variables:
 steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
-    dotnet test test/unit/Demo.WebApp.Tests --configuration $(buildConfiguration) --logger trx /p:CollectCoverage=true
+    dotnet test test/unit/Demo.WebApp.Tests --configuration $(buildConfiguration) --logger trx /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
 
 - task: PublishTestResults@2
