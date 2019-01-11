@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE471F9E-C51
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{479B6932-D175-45D4-8E63-5CA2983C1CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WebApp", "src\Demo.WebApp\Demo.WebApp.csproj", "{D7537B70-AC32-4BF2-836A-9E62ED7E8270}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebApp", "src\Demo.WebApp\Demo.WebApp.csproj", "{D7537B70-AC32-4BF2-836A-9E62ED7E8270}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{1830B7DD-71BE-40C1-A9E9-BA05EEBB9381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WebApp.Tests", "test\unit\Demo.WebApp.Tests\Demo.WebApp.Tests.csproj", "{1102A7B1-D3B9-40C9-B144-0A6B329374F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +23,18 @@ Global
 		{D7537B70-AC32-4BF2-836A-9E62ED7E8270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7537B70-AC32-4BF2-836A-9E62ED7E8270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7537B70-AC32-4BF2-836A-9E62ED7E8270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1102A7B1-D3B9-40C9-B144-0A6B329374F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1102A7B1-D3B9-40C9-B144-0A6B329374F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1102A7B1-D3B9-40C9-B144-0A6B329374F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1102A7B1-D3B9-40C9-B144-0A6B329374F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D7537B70-AC32-4BF2-836A-9E62ED7E8270} = {CE471F9E-C51F-47DE-853C-F99294FE6FC1}
+		{1830B7DD-71BE-40C1-A9E9-BA05EEBB9381} = {479B6932-D175-45D4-8E63-5CA2983C1CF5}
+		{1102A7B1-D3B9-40C9-B144-0A6B329374F0} = {1830B7DD-71BE-40C1-A9E9-BA05EEBB9381}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F6F75A7-7640-407F-9BBD-7927B5AD34A2}
